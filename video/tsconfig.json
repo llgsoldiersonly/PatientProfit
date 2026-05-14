@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "esnext"],
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "jsx": "react-jsx",
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/index.ts",
+    "src/Root.tsx",
+    "src/AgentsVideo.tsx",
+    "src/theme.ts",
+    "src/hooks/**/*.ts",
+    "src/scenes/Scene01.tsx",
+    "src/scenes/Scene02.tsx",
+    "src/scenes/Scene03.tsx",
+    "src/scenes/Scene04.tsx",
+    "src/scenes/Scene05.tsx"
+  ]
+}
